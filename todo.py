@@ -40,9 +40,9 @@ def todo_app():
                         print("Invalid task number.")
                 except ValueError:
                     print("Please enter a valid number.")
-        elif choice == '4':
-            print("Goodbye!")
-            break
+            elif choice == '4':
+                print("Goodbye! Have a productive day!")  # Updated exit message
+                break
         else:
             print("Invalid choice. Please choose between 1 and 4.")
 
